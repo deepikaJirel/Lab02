@@ -53,10 +53,7 @@ valid answers
 
 1. `chmod u+r bubbles.txt`
     - Means:</br>
-              chmod: `command to change the file permission.`</br>
-              u+r: `u is the owner of the file (user).  r stands for the read permission.`</br>
-              bubbles.txt: `files we are modifying`</br>
-      so the command `chmod u+r bubbles.txt` permits the user to read the .txt file. It remains the same if the user already has permission to read it. 
+       the command `chmod u+r bubbles.txt` permits the user to read the .txt file. It remains the same if the user already has permission to read it. 
                                    
 2. `chmod u=rw,g-w,o-x banana.cabana`
     - Means: `The user will have read and write permission, The group will have no write permission others will have no execute permission while the read, write permission is unaffected and the banana.cabana file that we are modifying.`
