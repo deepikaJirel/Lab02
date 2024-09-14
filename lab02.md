@@ -91,15 +91,13 @@ For each, write the command used or answer the question posed.
        `sudo groupadd crew`
 2. Command(s) to add `ubuntu` & user to group `crew`:</br>
        `sudo usermod -aG crew ubuntu`
-       `sudo usermod -aG crew user`
+       `sudo usermod -aG crew djirel`
 3. Command to modify `share` to have group ownership of `crew`:</br>
        `sudo chown :crew /path`  we need to replace /path with the actual path.
 4. Command to switch to user:</br>
-       `su - user`
+       `su djirel`
 5. Command to add file to `share`:</br>
-       To add a file we can use `cp` and `mv` commands. </br>
-       `cp /path/to/yourfile /path/to/share/`</br>
-       `mv /path/to/yourfile /path/to/share/`
+       `touch share/fileName.txt`
 
 6. Evaluate why these steps allowed the above action:
 
