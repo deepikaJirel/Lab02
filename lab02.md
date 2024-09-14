@@ -67,17 +67,17 @@ valid answers
 ## Part 4 Answers
 
 1. Command to create new user: </br>
-       `sudo useradd <username>` `For example: sudo useradd dipika`
+       `sudo useradd <username>` `For example: sudo useradd djirel`
 2. Path to user's home directory: </br>
-       `/home/<username>` `For example: /home/dipika`
+       `/home/<username>` `For example: /home/djirel`
 3. Evaluate if `ubuntu` can add files to user's home directory:</br>
-       `ls -ld /home/<username>` `For example: ls -ld /home/dipika`
+       `ls -ld /home/<username>` `For example: ls -ld /home/djirel`
 4. Command to switch to user:</br>
-       `su - <username>` `For example: su - dipika`
+       `su - <username>` `For example: su - djirel`
 5. Command(s) to go to user's home directory:</br>
-       `cd /home/<username>` `for example: cd /home/dipika`
+       `cd /home/<username>` `for example: cd /home/djirel`
 6. Evaluate if user can add files to user's home directory:</br>
-       `ls -ld /home/<username>` `for example: ls -ld /home/dipika`
+       `ls -ld /home/<username>` `for example: ls -ld /home/djirel`
 7. Command to switch to `ubuntu`:</br>
        `su - ubuntu`
 8. Command to return to `ubuntu` home directory: </br>
