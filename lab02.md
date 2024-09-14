@@ -6,7 +6,7 @@
 ## Part 1 Answers
 
 1. Command & steps to create an SSH key pair:</br>
-       `ssh -i ./labuser.pem ubuntu@44.217.99.208`</br>
+       `ssh -i ./labuser.pem ubuntu@44.217.99.208</br>
         ls </br>
        chmod labuser.pem 600</br>
        Chmod 600 ./labuser.pem</br>
