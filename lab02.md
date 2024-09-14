@@ -6,6 +6,19 @@
 ## Part 1 Answers
 
 1. Command & steps to create an SSH key pair:
+       `ssh -i ./labuser.pem ubuntu@44.217.99.208`
+        ls
+       chmod labuser.pem 600
+       Chmod 600 ./labuser.pem
+       ssh-keygen -t ed25519
+       ls
+       ls -lah
+       cd .ssh
+       ls
+       vim id_ed25519.pub
+       cat id_ed25519.pub
+       cd ceg2350-dipikajirel/
+       ls`
 2. Steps to add public key to GitHub profile:
        After generating the public key </br>
        - login to `GitHub`.</br>
