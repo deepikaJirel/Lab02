@@ -99,7 +99,7 @@ For each, write the command used or answer the question posed.
 5. Command to add file to `share`:</br>
        `touch share/fileName.txt`
 
-6. Evaluate why these steps allowed the above action:
+6. Evaluate why these steps allowed the above action:</br>
    `These steps collectively ensured that the necessary permissions and ownership settings were in place, allowing users in the crew group to manage files within the share directory effectively.`
 
 ## Part 6 Answers
